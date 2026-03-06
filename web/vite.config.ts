@@ -12,10 +12,10 @@ export default defineConfig({
       allow: ['..']
     }
   },
-  publicDir: path.resolve(__dirname, '../'),
+  publicDir: path.resolve(__dirname, 'public'),
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    copyPublicDir: false,
+    copyPublicDir: true,
   },
 })
